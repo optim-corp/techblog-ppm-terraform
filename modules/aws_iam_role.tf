@@ -1,4 +1,3 @@
-# TODO: このあたりは全くわかっていない
 resource "aws_iam_role" "ppm_ecs" {
   assume_role_policy = <<-JSON
   {
